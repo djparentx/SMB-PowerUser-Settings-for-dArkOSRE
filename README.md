@@ -1,10 +1,19 @@
+# How to use:
 1) Place in Tools folder
 2) Run once
 3) It self deletes after successful execution
 
 ---
 
+# Features:
+- removes useless 'Nobody' folder
+- grants root privilege to all smb shares
+- optimizes SMB settings
+
+---
+
 PowerUser:
+- no root folder access
 ```ini
 # [root]
    # comment = ROOT
@@ -19,6 +28,7 @@ PowerUser:
 ```
    
 SuperUser:
+- root folder access
 ```ini
 [root]
    comment = ROOT
